@@ -1,0 +1,40 @@
+body {
+    background-image: url(bg1.webp);
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+.bg-warning {
+    border: 10px goldenrod ridge;
+    padding: 10px;
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+}
+.player {
+    border-radius: 20px;
+    border: dotted 7px #DAC17C;
+    padding : 5px; 
+    margin: 50px;
+    background-color: #FFF59E; 
+}
+.player:hover {
+    background-color: #FFF157;
+}
+.player h2 {
+    color: goldenrod; 
+    font-family: 'Xanh Mono', monospace;
+    font-size: 40px;
+}
+input {
+    width: 80% ;
+    color: goldenrod;
+    font-size: 32px;
+    font-family: 'Sacramento', cursive;
+}
+.glyphicon {
+    font-size : 20px; 
+}
+.btn {
+    width: 50px;
+    height: 50px;
+    border: 2px #BDA55D solid; 
+}
